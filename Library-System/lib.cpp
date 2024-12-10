@@ -5,17 +5,17 @@
 LibrarySystem::LibrarySystem() : loggedInUser("") {
     genres = {
         {"Romance", {
-            {"Pride and Prejudice", "A classic romance novel.", 4.7, true},
-            {"The Notebook", "A heartfelt love story.", 4.6, true}
+            {"Pride_and_Prejudice", "A classic romance novel.", 4.7, true},
+            {"The_Notebook", "A heartfelt love story.", 4.6, true}
         }},
         {"Mystery", {
-            {"Junji Ito's Stories", "PEAK story writing about horror mystery", 4.9, true},
-        {"Gone Girl", "stories about girls get kidnapped", 5.0, true},
-        {"The Quiet American", "American killer drama", 4.6, true}
+            {"Junji_Ito's_Stories", "PEAK story writing about horror mystery", 4.9, true},
+        {"Gone_Girl", "stories about girls get kidnapped", 5.0, true},
+        {"The_Quiet_American", "American killer drama", 4.6, true}
         }},
         {"Anime", {
-             {"Jojo's Bizzare Adventure", "A bizzare adventure.", 5.0, true},
-        {"Cyberpunk : Edgerunners", "A tragic lovestory masked in an action genre.", 5.0, true}
+             {"Jojo's_Bizzare_Adventure", "A bizzare adventure.", 5.0, true},
+        {"Cyberpunk_Edgerunners", "A tragic lovestory masked in an action genre.", 5.0, true}
 
         }}  
     };
